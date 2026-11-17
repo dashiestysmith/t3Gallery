@@ -1,5 +1,7 @@
 import Link from "next/link";
 
+
+
 const mockUrls = ["https://2h8idteg49.ufs.sh/f/dlYBIPE7vebIaRt5Jt3ZeubfB3OYPdHJ7psNoqritXLFTRmI", "https://2h8idteg49.ufs.sh/f/dlYBIPE7vebINGTfOuyHgWNI23yTCMQS0YnXbVrJkPzEK1j9", "https://2h8idteg49.ufs.sh/f/dlYBIPE7vebI00n6R0haG1z7TBNUYV4CiqWpwml3cKSyuLjD", "https://2h8idteg49.ufs.sh/f/dlYBIPE7vebIBvZkLLjsh7FRAqxlUQrtInVcWg0EdXGyHzCY"]
 const mockImages = mockUrls.map((url, index) => ({
   id: index +1,
@@ -15,6 +17,9 @@ export default function HomePage() {
         </div>
       ))
     }
+    </div>
+    <div>
+       <Link href= "/layer02">Learn to Scam</Link>
     </div>
     <div>
       <h1 className = "	font-serif">My song 1</h1>
@@ -54,8 +59,11 @@ export default function HomePage() {
 この宇宙を抱いて輝く<br></br>
 少年よ 神話になれ</p>
     </div>
+    
+   
 
 
     </main>
   );
 }
+
